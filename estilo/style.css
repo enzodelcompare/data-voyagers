@@ -15,7 +15,7 @@ header, footer {
 #texto_topo_index {
     max-width: 600px;
     margin: 0 auto;
-    text-align: justify;
+    /*text-align: justify;*/
     margin-top: 40px;
     color: #00ff00;
 }
@@ -63,7 +63,7 @@ header, footer {
 #desc {
     max-width: 600px;
     margin: 0 auto;
-    text-align: justify;
+    /*text-align: justify;*/
     margin-top: 40px;
     color: #fff;
 }
@@ -135,7 +135,7 @@ a:hover {
     background-color: #111;
     max-width: 600px;
     margin: 0 auto;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 .post-image {
