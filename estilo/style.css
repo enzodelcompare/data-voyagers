@@ -12,70 +12,12 @@ header, footer {
     margin-bottom: 20px;
 }
 
-#principal {
+#texto_topo_index {
     max-width: 600px;
     margin: 0 auto;
     text-align: justify;
     margin-top: 40px;
     color: #00ff00;
-}
-
-#desc {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: justify;
-    margin-top: 40px;
-    color: #fff;
-}
-
-#rodape {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 40px;
-}
-
-#logo {
-    max-height: 120px;
-    width: auto;
-}
-
-h1 {
-    color: #00ff00;
-}
-
-#abotao {
-    margin-top: 0px;
-}
-
-a {
-    color: #00ff00;
-    display: inline-block;
-    margin-top: 40px;
-}
-
-a:hover {
-    color: #00cc00;
-}
-
-.content {
-    border: 1px solid #333;
-    padding: 20px;
-    background-color: #111;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-.post-title {
-    font-size: 1.5em;
-    margin-bottom: 5px;
-}
-
-.post-date {
-    font-size: 0.9em;
-    color: #777;
-    margin-bottom: 40px;
 }
 
 /* Botão alinhado à direita */
@@ -116,6 +58,74 @@ a:hover {
     background-color: #00cc00;
     color: #111;
     border-color: #00cc00;
+}
+
+#desc {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 40px;
+    color: #fff;
+}
+
+#desc2 {
+    margin-top: 0px;
+    color: #fff;
+}
+
+#rodape {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logo {
+    max-height: 120px;
+    width: auto;
+}
+
+h1 {
+    color: #00ff00;
+}
+
+#abotao {
+    margin-top: 0px;
+}
+
+#abotao2 {
+    margin-top: 0px;
+    color: #fff;
+}
+
+a {
+    color: #00ff00;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+a:hover {
+    color: #00cc00;
+}
+
+.content {
+    border: 1px solid #333;
+    padding: 20px;
+    background-color: #111;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 40px;
 }
 
 /* Estilos específicos para a página de "Leia mais" */
