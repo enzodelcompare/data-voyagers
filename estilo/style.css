@@ -1,0 +1,142 @@
+/* Estilos gerais */
+body {
+    background-color: #1a1a1a;
+    color: #00ff00;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#principal {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 40px;
+    color: #00ff00;
+}
+
+#desc {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 40px;
+    color: #fff;
+}
+
+#rodape {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logo {
+    max-height: 120px;
+    width: auto;
+}
+
+h1 {
+    color: #00ff00;
+}
+
+#abotao {
+    margin-top: 0px;
+}
+
+a {
+    color: #00ff00;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+a:hover {
+    color: #00cc00;
+}
+
+.content {
+    border: 1px solid #333;
+    padding: 20px;
+    background-color: #111;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* Botão alinhado à direita */
+.botao-container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 600px;
+    margin: 20px auto; /* centraliza o contêiner em relação ao restante do conteúdo */
+    margin-bottom: 40px;
+}
+
+.botao-cursor {
+    background-color: #111;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Ubuntu Mono', monospace;
+    position: relative;
+}
+
+/* Efeito de cursor piscante */
+.botao-cursor::after {
+    content: "_";
+    animation: blink 1s step-end infinite;
+    color: #00ff00;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Efeito hover para o botão */
+.botao-cursor:hover {
+    background-color: #00cc00;
+    color: #111;
+    border-color: #00cc00;
+}
+
+/* Estilos específicos para a página de "Leia mais" */
+.post-content {
+    border: 1px solid #333;
+    padding: 20px;
+    background-color: #111;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    margin-bottom: 40px;
+}
+
+.post-title {
+    font-size: 2em;
+    margin-top: 0;
+    color: #00ff00;
+}
